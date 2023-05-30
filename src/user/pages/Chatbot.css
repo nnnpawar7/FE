@@ -1,0 +1,44 @@
+.bot {
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  position: fixed;
+  width: 350px;
+  z-index: 94;
+}
+
+.btn {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  margin-bottom: 30px;
+  float: right;
+  background-color: #1e524c;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:focus {
+  outline: none;
+}
+
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  border-radius: 20px;
+  background-color: #0f4d4a;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
